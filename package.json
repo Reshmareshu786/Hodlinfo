@@ -1,0 +1,23 @@
+{
+  "name": "hodlinfo",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reshmareshu786/Hodlinfo.git"
+  },
+  "author": "Reshma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Reshmareshu786/Hodlinfo/issues"
+  },
+  "homepage": "https://github.com/Reshmareshu786/Hodlinfo#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
