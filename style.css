@@ -30,10 +30,38 @@ body {
     padding:20px;
 }
 
-.controls
+.controls-container
 {
-    display:flex;
+  display:flex;
 }
+
+.controls select
+{
+   padding: 10px 20px;
+    background-color: #2a2e37;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;  
+    margin:10px;
+    outline: none;
+    border: none; 
+}
+
+ .controls select option {
+   background-color: #fff; 
+   color: #191D28;
+  }
+
+.buy-btc
+{
+   padding: 10px 20px;
+    background-color: #2a2e37;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;  
+    margin:10px; 
+}
+
 
 @media screen and (min-width:700px)
 {
@@ -42,15 +70,6 @@ body {
         flex-direction:row;
         justify-content:space-evenly;
     }
-}
-
-.controls div {
-    padding: 10px 20px;
-    background-color: #2a2e37;
-    border-radius: 10px;
-    color: #fff;
-    cursor: pointer;  
-    margin:10px; 
 }
 
 .circle {
@@ -182,7 +201,7 @@ body {
     }
     .trading
     {
-        font-size:20px;
+        font-size:25px;
     }
     .trading-container
     {
@@ -193,18 +212,18 @@ body {
     }
     .time 
     {
-        font-size:15px;
+        font-size:18px;
     }
     .amount
     {
-        font-size:50px;
+        font-size:70px;
         margin-top:0px;
     }
     .amount-time{
     color:#818389;
     font-weight:400;
     margin-top:20px;
-    font-size:17px;
+    font-size:18px;
     width:300px;
 }
 }
@@ -232,6 +251,7 @@ th,td {
 tbody tr {
     background-color: #2E3241;
     border-radius: 15px;
+    font-size:20px;
 }
 
 tbody tr td:first-child {
